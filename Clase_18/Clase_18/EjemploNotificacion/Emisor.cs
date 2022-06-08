@@ -7,8 +7,12 @@ namespace Clase_18
     public class Emisor
     {
         public static Random random = new Random();
+
         public static List<Action> destinatarios = new List<Action>();
+      //  public static List<DelegadoDestinatario> destinatarios=new List<DelegadoDestinatario>();
+
         public static List<Action<int>> destinatariosConTiempo = new List<Action<int>>();
+       // public static List<DelegadoDestinatarioConTiempo> destinatarioConTiempos = new List<DelegadoDestinatarioConTiempo>();
 
 
         public static void ProducirNotificacion()
